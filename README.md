@@ -16,7 +16,12 @@ Links to the official Prisma repositories:
 
 ## Scope
 
-Here is the list of the Prisma ORM versions and their Prisma Engines SHA checksums currently discovered by the script:
+In this repository in [all_commits](./artifacts/all_commits/) are all the small artifacts, the SHA checksums and PGP signatures, the big artifacts, the `.gz` archives are too big for a git repository.
+
+I personally have a private Cloudflare R2 bucket with all the files, which I'm happy to share on request.
+Bucket size: ~44GB.
+
+Here is the list of the official Prisma ORM versions and their Prisma Engines SHA checksums currently discovered by the script:
 
 ```json
 {
@@ -148,6 +153,8 @@ Here is the list of the Prisma ORM versions and their Prisma Engines SHA checksu
 
 Cloudflare R2 is an easy, S3 compatible storage, (a lot) cheaper than AWS S3.
 To upload files using the AWS CLI, check the `.envrc.example` file for the environment variables needed.
+
+See https://developers.cloudflare.com/r2/api/s3/api/
 
 ### Using a CDN mirror with Prisma ORM
 
