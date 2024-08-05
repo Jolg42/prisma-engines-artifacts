@@ -1,0 +1,6 @@
+# https://docs.aws.amazon.com/cli/v1/userguide/cli-configure-envvars.html
+# https://dash.cloudflare.com/?to=/:account/r2/api-tokens
+export AWS_ACCESS_KEY_ID=
+export AWS_SECRET_ACCESS_KEY=
+export AWS_ENDPOINT_URL=https://xxxxx.r2.cloudflarestorage.com
+export AWS_REGION=us-east-1
