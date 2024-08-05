@@ -7,16 +7,14 @@ const data = fs.readFileSync(
 )
 const json = JSON.parse(data)
 
+process.chdir('../artifacts')
+
 for (const version in json) {
   const commitSha = json[version]
   console.log(`\n\n${version}: ${commitSha}`)
 
   try {
-    await fs.symlinkSync(
-      path.resolve(`../artifacts/all_commits/${commitSha}`),
-      `../artifacts/versions/${version}`,
-      'dir',
-    )
+    await fs.symlinkSync(`../all_commits/${commitSha}`, `./versions/${version}`, 'dir')
   } catch (e) {
     console.log(e)
   }
