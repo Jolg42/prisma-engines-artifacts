@@ -1,6 +1,5 @@
 .envrc
-*.gz
-artifacts
+artifacts/**/*.gz
 
 # Logs
 logs
