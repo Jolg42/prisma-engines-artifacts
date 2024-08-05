@@ -18,7 +18,7 @@ Links to the official Prisma repositories:
 
 Here is the list of the Prisma ORM versions and their Prisma Engines SHA checksums currently discovered by the script:
 
-```
+```json
 {
   "2.10.0": "af1ae11a423edfb5d24092a85be11fa77c5e499c",
   "2.10.1": "7d0087eadc7265e12d4b8d8c3516b02c4c965111",
