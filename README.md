@@ -167,6 +167,11 @@ PRISMA_ENGINES_MIRROR="https://example.com"
 
 Note: make sure the CDN is accessible / public.
 
+### Internet Archive
+
+I think it would be interesting to add all the artifacts in the Software category of https://archive.org/
+I'll try this and update this section later.
+
 ### Useful S3 CLI Commands
 
 ```sh
